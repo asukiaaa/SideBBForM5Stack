@@ -161,7 +161,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical (layer F.Cu) (tedit 5B3F2D68) (tstamp 5B4B4DEC)
-    (at 130.9116 63.5508)
+    (at 131.22 63.5508)
     (descr "Through hole straight pin header, 1x15, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x15 2.54mm single row")
     (path /5B3F1F26)
@@ -227,7 +227,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical_SMD (layer F.Cu) (tedit 5B3F2D64) (tstamp 5B4B4E95)
-    (at 135.905 81.3308)
+    (at 135.9 81.3308)
     (descr "surface-mounted straight pin header, 2x15, 2.54mm pitch, double rows")
     (tags "Surface mounted pin header SMD 2x15 2.54mm double row")
     (path /5B3F1E10)
@@ -443,7 +443,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical (layer F.Cu) (tedit 5B3F2D6D) (tstamp 5B4B4EB8)
-    (at 140.7668 63.5508)
+    (at 140.58 63.5508)
     (descr "Through hole straight pin header, 1x15, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x15 2.54mm single row")
     (path /5B3F1ECC)
@@ -508,9 +508,9 @@
     )
   )
 
-  (gr_line (start 140.7668 61.722) (end 130.81 61.722) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 140.8176 100.9904) (end 140.7668 61.722) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 130.8608 100.9904) (end 140.8176 100.9904) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 130.81 61.722) (end 130.8608 100.9904) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 140.58 61.722) (end 131.22 61.722) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 140.58 100.9396) (end 140.58 61.722) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 131.22 100.9396) (end 140.58 100.9396) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 131.22 61.722) (end 131.22 100.9396) (layer Edge.Cuts) (width 0.2))
 
 )
