@@ -510,7 +510,7 @@
     )
   )
 
-  (gr_text "spacer REV1.0 for M5StackSideBB REV1.2" (at 135.89 79.6036 270) (layer F.SilkS)
+  (gr_text "spacer REV1.1 for M5StackSideBB REV1.2" (at 135.89 79.6036 270) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (gr_line (start 140.5764 62.23) (end 131.2164 62.23) (layer Edge.Cuts) (width 0.2))
