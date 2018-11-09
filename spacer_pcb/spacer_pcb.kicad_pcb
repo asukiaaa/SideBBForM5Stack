@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~65~ubuntu17.10.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.1-33cea8e~67~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -58,6 +58,7 @@
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
@@ -510,7 +511,7 @@
     )
   )
 
-  (gr_text "spacer REV1.1 for M5StackSideBB REV1.2" (at 135.89 79.6036 270) (layer F.SilkS)
+  (gr_text "spacer REV1.1 for M5StackSideBB Rev 2018.08" (at 135.89 79.6036 270) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (gr_line (start 140.5764 62.23) (end 131.2164 62.23) (layer Edge.Cuts) (width 0.2))
