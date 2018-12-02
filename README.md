@@ -1,6 +1,9 @@
 # M5StackSideBB
 
-An expansion board to use bread board with M5Stack.
+An stack for M5Stack to use bread board easier.
+
+![m5stacksidebb](/docs/m5stacksidebb.jpg)
+![led_blink_with_m5stack](/docs/led_blink_with_m5stack.jpg)
 
 # License
 
