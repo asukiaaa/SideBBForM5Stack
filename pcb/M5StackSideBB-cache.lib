@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic:Conn_01x11
+# Connector_Generic_Conn_01x11
 #
-DEF Connector_Generic:Conn_01x11 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x11 J 0 40 Y N 1 F N
 F0 "J" 0 600 50 H V C CNN
-F1 "Connector_Generic:Conn_01x11" 0 -600 50 H V C CNN
+F1 "Connector_Generic_Conn_01x11" 0 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -38,11 +38,11 @@ X Pin_9 9 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x15_Odd_Even
+# Connector_Generic_Conn_02x15_Odd_Even
 #
-DEF Connector_Generic:Conn_02x15_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x15_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 800 50 H V C CNN
-F1 "Connector_Generic:Conn_02x15_Odd_Even" 50 -800 50 H V C CNN
+F1 "Connector_Generic_Conn_02x15_Odd_Even" 50 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -113,11 +113,11 @@ X Pin_9 9 -200 300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:+3.3V
+# power_+3.3V
 #
-DEF power:+3.3V #PWR 0 0 Y Y 1 F P
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3.3V" 0 140 50 H V C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -129,11 +129,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+5V
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -144,11 +144,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+BATT
+# power_+BATT
 #
-DEF power:+BATT #PWR 0 0 Y Y 1 F P
+DEF power_+BATT #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+BATT" 0 140 50 H V C CNN
+F1 "power_+BATT" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -159,11 +159,11 @@ X +BATT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
