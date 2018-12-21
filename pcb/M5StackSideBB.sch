@@ -25,58 +25,58 @@ F 3 "~" H 8100 3000 50  0001 C CNN
 	1    8100 3000
 	1    0    0    -1  
 $EndComp
-Text GLabel 4950 2350 0    39   Input ~ 0
-G2
-Text GLabel 6000 2950 0    39   Input ~ 0
-G21
-Text GLabel 6000 2550 0    39   Input ~ 0
-G16
-Text GLabel 6000 2350 0    39   Input ~ 0
-G3
-Text GLabel 6000 2750 0    39   Input ~ 0
-G18
 Text GLabel 6000 2850 0    39   Input ~ 0
-G19
-Text GLabel 6000 3150 0    39   Input ~ 0
-G23
-Text GLabel 4950 2750 0    39   Input ~ 0
-G35
-Text GLabel 4950 2850 0    39   Input ~ 0
-G36
-Text GLabel 4950 2950 0    39   Input ~ 0
-RST
-Text GLabel 4950 2550 0    39   Input ~ 0
-G25
-Text GLabel 4950 2650 0    39   Input ~ 0
-G26
-Text GLabel 6000 2450 0    39   Input ~ 0
-G1
-Text GLabel 6000 2650 0    39   Input ~ 0
-G17
+G2
+Text GLabel 4950 2250 0    39   Input ~ 0
+G21
 Text GLabel 6000 3050 0    39   Input ~ 0
-G22
+G16
 Text GLabel 4950 2450 0    39   Input ~ 0
+G3
+Text GLabel 4950 2650 0    39   Input ~ 0
+G18
+Text GLabel 4950 2750 0    39   Input ~ 0
+G19
+Text GLabel 4950 2850 0    39   Input ~ 0
+G23
+Text GLabel 4950 3150 0    39   Input ~ 0
+G35
+Text GLabel 4950 3250 0    39   Input ~ 0
+G36
+Text GLabel 4950 3350 0    39   Input ~ 0
+RST
+Text GLabel 4950 2950 0    39   Input ~ 0
+G25
+Text GLabel 4950 3050 0    39   Input ~ 0
+G26
+Text GLabel 4950 2550 0    39   Input ~ 0
+G1
+Text GLabel 6000 3150 0    39   Input ~ 0
+G17
+Text GLabel 4950 2350 0    39   Input ~ 0
+G22
+Text GLabel 6000 2950 0    39   Input ~ 0
 G5
 $Comp
 L power:+5V #PWR0103
 U 1 1 5B24B644
-P 4400 3250
-F 0 "#PWR0103" H 4400 3100 50  0001 C CNN
-F 1 "+5V" H 4415 3423 50  0000 C CNN
-F 2 "" H 4400 3250 50  0001 C CNN
-F 3 "" H 4400 3250 50  0001 C CNN
-	1    4400 3250
+P 5500 2250
+F 0 "#PWR0103" H 5500 2100 50  0001 C CNN
+F 1 "+5V" H 5515 2423 50  0000 C CNN
+F 2 "" H 5500 2250 50  0001 C CNN
+F 3 "" H 5500 2250 50  0001 C CNN
+	1    5500 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+BATT #PWR0104
 U 1 1 5B24B943
-P 4700 3050
-F 0 "#PWR0104" H 4700 2900 50  0001 C CNN
-F 1 "+BATT" H 4715 3223 50  0000 C CNN
-F 2 "" H 4700 3050 50  0001 C CNN
-F 3 "" H 4700 3050 50  0001 C CNN
-	1    4700 3050
+P 5650 2150
+F 0 "#PWR0104" H 5650 2000 50  0001 C CNN
+F 1 "+BATT" H 5665 2323 50  0000 C CNN
+F 2 "" H 5650 2150 50  0001 C CNN
+F 3 "" H 5650 2150 50  0001 C CNN
+	1    5650 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -202,23 +202,23 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR0110
 U 1 1 5B27AF84
-P 4550 3150
-F 0 "#PWR0110" H 4550 3000 50  0001 C CNN
-F 1 "+3.3V" H 4565 3323 50  0000 C CNN
-F 2 "" H 4550 3150 50  0001 C CNN
-F 3 "" H 4550 3150 50  0001 C CNN
-	1    4550 3150
+P 4350 2300
+F 0 "#PWR0110" H 4350 2150 50  0001 C CNN
+F 1 "+3.3V" H 4365 2473 50  0000 C CNN
+F 2 "" H 4350 2300 50  0001 C CNN
+F 3 "" H 4350 2300 50  0001 C CNN
+	1    4350 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0111
 U 1 1 5B27AFCA
-P 4700 3350
-F 0 "#PWR0111" H 4700 3100 50  0001 C CNN
-F 1 "GND" H 4705 3177 50  0000 C CNN
-F 2 "" H 4700 3350 50  0001 C CNN
-F 3 "" H 4700 3350 50  0001 C CNN
-	1    4700 3350
+P 4600 2050
+F 0 "#PWR0111" H 4600 1800 50  0001 C CNN
+F 1 "GND" H 4605 1877 50  0000 C CNN
+F 2 "" H 4600 2050 50  0001 C CNN
+F 3 "" H 4600 2050 50  0001 C CNN
+	1    4600 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -234,14 +234,6 @@ F 3 "" H 7500 4900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7900 4900 7500 4900
-Wire Wire Line
-	4950 3050 4700 3050
-Wire Wire Line
-	4950 3150 4550 3150
-Wire Wire Line
-	4950 3250 4400 3250
-Wire Wire Line
-	4950 3350 4700 3350
 $Comp
 L power:+3.3V #PWR0115
 U 1 1 5B27E3D9
@@ -266,28 +258,6 @@ F 3 "" H 5850 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6000 3250 5600 3250
-$Comp
-L Connector_Generic:Conn_01x11 J1
-U 1 1 5B50BA11
-P 5150 2850
-F 0 "J1" H 5150 3600 50  0000 L CNN
-F 1 "Conn_01x11" H 5000 3500 50  0000 L CNN
-F 2 "footprints:PinSocket_1x11_P2.54mm_Vertical_without_silk" H 5150 2850 50  0001 C CNN
-F 3 "~" H 5150 2850 50  0001 C CNN
-	1    5150 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x11 J2
-U 1 1 5B50C22A
-P 6200 2850
-F 0 "J2" H 6200 3600 50  0000 L CNN
-F 1 "Conn_01x11" H 6050 3500 50  0000 L CNN
-F 2 "footprints:PinSocket_1x11_P2.54mm_Vertical_without_silk" H 6200 2850 50  0001 C CNN
-F 3 "~" H 6200 2850 50  0001 C CNN
-	1    6200 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 3350 5850 3350
 Text GLabel 7900 2300 0    39   Input ~ 0
@@ -412,4 +382,50 @@ F 3 "" H 7500 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7900 2800 7500 2800
+Text GLabel 6000 2750 0    39   Input ~ 0
+G13
+Text GLabel 6000 2550 0    39   Input ~ 0
+G0
+Text GLabel 6000 2350 0    39   Input ~ 0
+G34
+Text GLabel 6000 2650 0    39   Input ~ 0
+G12
+Text GLabel 6000 2450 0    39   Input ~ 0
+G15
+Text GLabel 6000 2050 0    39   Input ~ 0
+HPWR
+$Comp
+L Connector_Generic:Conn_01x14 J1
+U 1 1 5C1CDEAB
+P 5150 2650
+F 0 "J1" H 5150 3500 50  0000 L CNN
+F 1 "Conn_01x14" H 5000 3400 50  0000 L CNN
+F 2 "footprints:PinSocket_1x14_P2.54mm_Vertical_without_silk" H 5150 2650 50  0001 C CNN
+F 3 "~" H 5150 2650 50  0001 C CNN
+	1    5150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x14 J2
+U 1 1 5C1CDF6E
+P 6200 2650
+F 0 "J2" H 6200 3500 50  0000 L CNN
+F 1 "Conn_01x14" H 6050 3400 50  0000 L CNN
+F 2 "footprints:PinSocket_1x14_P2.54mm_Vertical_without_silk" H 6200 2650 50  0001 C CNN
+F 3 "~" H 6200 2650 50  0001 C CNN
+	1    6200 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2050 4600 2050
+Wire Wire Line
+	4950 2150 4750 2150
+Wire Wire Line
+	4750 2150 4750 2300
+Wire Wire Line
+	4750 2300 4350 2300
+Wire Wire Line
+	5500 2250 6000 2250
+Wire Wire Line
+	6000 2150 5650 2150
 $EndSCHEMATC
