@@ -1,5 +1,9 @@
-Name,Number,Url
-Main PCB (100x50mm),1,Attached main.zip
-Spacer PCB (9.5x3.8mm),1,Attached spacer.zip
-M5 Stack Joint,1 pair,https://ja.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-2x15-Pin-Headers-Socket-2-54mm-Male-Female-4-Pair-Connector-for/3226069_32840923472.html
-2.54mm 1x14 white socket,2,http://akizukidenshi.com/catalog/g/gC-11571/
+Name,Number,Url,Memo
+Main PCB (100x50mm),1,Attached main,
+Spacer PCB (9.5x3.8mm),1,Attached spacer,
+M5 Stack Joint,1 pair,https://ja.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-2x15-Pin-Headers-Socket-2-54mm-Male-Female-4-Pair-Connector-for/3226069_32840923472.html,
+2.54mm 1x14 white socket,2,http://akizukidenshi.com/catalog/g/gC-11571/,
+MniBreadBoard white,1,https://ja.aliexpress.com/item/5-SYB-170-170-pcb/32880549432.html,If you can get them lower plice than the link, I don't mind the vendor. If you can find some white bread board that does not have hooks, you can replace to it.
+M3 5mm Spacer,2,https://ja.aliexpress.com/item/100pcs-M3-Nylon-Hexagonal-Pillar-Female-and-Male-Standoff-Spacer-M3x5-6mmm-M3x6-6mm-M3x7-6mm/32811270025.html,If you can get them lower plice than the link, I don't mind the vendor.
+M3 7mm Spacer,2,https://ja.aliexpress.com/item/100pcs-M3-Nylon-Hexagonal-Pillar-Female-and-Male-Standoff-Spacer-M3x5-6mmm-M3x6-6mm-M3x7-6mm/32811270025.html,If you can get them lower plice than the link, I don't mind the vendor.
+M3 7mm Nut,2,https://ja.aliexpress.com/item/100pcs-M3-Nylon-Hexagonal-Pillar-Female-and-Male-Standoff-Spacer-M3x5-6mmm-M3x6-6mm-M3x7-6mm/32811270025.html,If you can get them lower plice than the link, I don't mind the vendor.
