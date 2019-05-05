@@ -20,7 +20,7 @@ U 1 1 5B24A05D
 P 8100 3000
 F 0 "J3" H 8150 3917 50  0000 C CNN
 F 1 "Conn_02x15_Odd_Even" H 8150 3826 50  0000 C CNN
-F 2 "footprints:PinHeader_2x15_P2.54mm_SMD_pads_only" H 8100 3000 50  0001 C CNN
+F 2 "footprints:PinHeader_2x15_P2.54mm_M5Stack_SpacerPCB_pads" H 8100 3000 50  0001 C CNN
 F 3 "~" H 8100 3000 50  0001 C CNN
 	1    8100 3000
 	1    0    0    -1  
