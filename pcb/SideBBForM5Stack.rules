@@ -1,5 +1,5 @@
 
-(rules PCB M5StackSideBB
+(rules PCB SideBBForM5Stack
   (snap_angle 
     fortyfive_degree
   )

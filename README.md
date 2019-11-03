@@ -1,4 +1,4 @@
-# M5StackSideBB
+# SideBBForM5Stack
 
 An stack for M5Stack to use bread board easier.
 
@@ -7,7 +7,7 @@ An stack for M5Stack to use bread board easier.
 
 # Where to buy
 
-[M5StackSideBB - Switch Science](https://www.switch-science.com/catalog/4098/)
+[SideBBForM5Stack - Switch Science](https://www.switch-science.com/catalog/4098/)
 
 # License
 
