@@ -13,7 +13,16 @@ $0 tile_image.png"
   exit 1
 fi
 
-RESULT_IMAGE=2148x3048px_tiles.png
+RESULT_WIDTH=2148
+RESULT_HEIGHT=3048
+RESULT_IMAGE=${RESULT_WIDTH}x${RESULT_HEIGHT}px_tiles.png
+FRAME_WIDTH=100
+FRAME_HEIGHT=80
 
-convert -size 2148x3048 tile:$1 -page +100+100 -bordercolor white -border 50x50 $RESULT_IMAGE
+SIZE_WIDTH=$(expr $RESULT_WIDTH - $FRAME_WIDTH \* 2)
+SIZE_HEIGHT=$(expr $RESULT_HEIGHT - $FRAME_HEIGHT \* 2)
+
+COMMAND="convert -size ${SIZE_WIDTH}x${SIZE_HEIGHT} tile:$1 -page +100+100 -bordercolor white -border ${FRAME_WIDTH}x${FRAME_HEIGHT} $RESULT_IMAGE"
+echo $COMMAND
+$COMMAND
 echo "created ${RESULT_IMAGE}"
