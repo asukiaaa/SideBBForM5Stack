@@ -2270,7 +2270,7 @@
   (gr_text "SideBBForM5Stack" (at 181.52872 87.21852) (layer "B.SilkS") (tstamp 9186fd02-f30d-4e17-aa38-378ab73e3908)
     (effects (font (size 2.5 2.5) (thickness 0.625)) (justify mirror))
   )
-  (gr_text "Rev2021.03" (at 158.1988 87.8832) (layer "B.SilkS") (tstamp aa130053-a451-4f12-97f7-3d4d891a5f83)
+  (gr_text "Rev2022.03" (at 158.1988 87.8832) (layer "B.SilkS") (tstamp aa130053-a451-4f12-97f7-3d4d891a5f83)
     (effects (font (size 1.2 1.2) (thickness 0.3)) (justify mirror))
   )
   (gr_text "3" (at 166.61892 53.71084) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005b27acaf)
@@ -2432,7 +2432,7 @@
   (gr_text "17" (at 189.30428 96.5962) (layer "F.SilkS") (tstamp eaa0d51a-ee4e-4d3a-a801-bddb7027e94c)
     (effects (font (size 1 1) (thickness 0.25)))
   )
-  (gr_text "Rev2021.03" (at 133.3488 87.5792) (layer "F.SilkS") (tstamp f9c81c26-f253-4227-a69f-53e64841cfbe)
+  (gr_text "Rev2022.03" (at 133.3488 87.5792) (layer "F.SilkS") (tstamp f9c81c26-f253-4227-a69f-53e64841cfbe)
     (effects (font (size 1 1) (thickness 0.25)))
   )
 
